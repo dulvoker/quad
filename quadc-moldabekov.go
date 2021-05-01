@@ -2,7 +2,7 @@ package piscine
 
 import "github.com/01-edu/z01"
 
-func QuadX(x, y int) {
+func QuadC(x, y int) {
 	if x > 0 && y > 0 {
 		if x == 1 && y == 1 {
 			z01.PrintRune('A')
