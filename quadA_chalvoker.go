@@ -4,7 +4,6 @@ import "github.com/01-edu/z01"
 
 func QuadA(x, y int) {
 
-
 	for vert := 0; vert < y; vert++ {
 		if vert == 0 || vert == y-1 {
 			for horiz := 0; horiz < x; horiz++ {
