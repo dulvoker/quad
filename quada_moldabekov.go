@@ -1,9 +1,8 @@
-package main
+package piscine
 
 import "github.com/01-edu/z01"
 
 func QuadA(x, y int) {
-
 	if x > 0 && y > 0 {
 		if x == 1 && y == 1 {
 			z01.PrintRune('o')
@@ -61,7 +60,3 @@ func QuadA(x, y int) {
 		}
 	}
 } 
-
-func main() {
-	QuadA(5, 3)
-}
