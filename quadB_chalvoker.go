@@ -7,7 +7,9 @@ func QuadB(x, y int) {
 		if vert == 0 || vert == y-1 {
 			for horiz := 0; horiz < x; horiz++ {
 				if horiz == 0 || horiz == x-1 {
-					if horiz == 0 && vert == 0 || vert == y-1 && horiz != 0 {
+					if horiz == x - 1  && vert == 0{
+						z01.PrintRune(92)
+					} else if horiz == 0 && vert == 0  || vert == y-1 && horiz != 0 {
 						z01.PrintRune('/')
 					} else {
 						z01.PrintRune(92)
