@@ -1,4 +1,4 @@
-package main
+package piscine
 
 import "github.com/01-edu/z01"
 
@@ -42,13 +42,4 @@ func QuadC(x, y int) {
 			z01.PrintRune('\n')
 		}
 	}
-}
-func main() {
-	QuadC(5, 3)
-	z01.PrintRune(10)
-	QuadC(5, 1)
-	z01.PrintRune(10)
-	QuadC(1, 1)
-	z01.PrintRune(10)
-	QuadC(1, 5)
 }
